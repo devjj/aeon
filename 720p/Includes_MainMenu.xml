@@ -134,9 +134,10 @@
 				<visible>Skin.HasSetting(debug)</visible>
 			</item>
 			<item id="21">
-				<description>Assistant</description>
-				<label>31021</label>
-				<onclick>XBMC.ActivateWindow(605)</onclick>
+				<description>Favorites</description>
+				<label>FAVORITES</label>
+        <include>BackgroundVarsAssistant</include> 
+				<onclick>XBMC.ActivateWindow(134)</onclick>
 				<visible>Skin.HasSetting(assistant)</visible>
 			</item>
 			<item id="23">
